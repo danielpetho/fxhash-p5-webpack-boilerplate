@@ -1,5 +1,5 @@
 {
-  "name": "fxhash-boilerplate-webpack",
+  "name": "fxhash-p5-boilerplate-webpack",
   "version": "1.0.0",
   "description": "a boilerplate to create a generative token on fxhash",
   "main": "index.js",
@@ -9,7 +9,9 @@
     "build": "webpack --config ./config/webpack.config.prod.js",
     "start": "webpack serve --config ./config/webpack.config.dev.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "p5": "^1.4.0"
+  },
   "devDependencies": {
     "adm-zip": "^0.5.9",
     "copy-webpack-plugin": "^9.0.1",
